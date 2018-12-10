@@ -16,7 +16,7 @@
 title: Danifrsh
 email: hello@danifrsh.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Danielle (but my friends call me danifrsh). Thanks for swinging by my site! This is a place where I post about projects I'm working on and things I find interesting.
+  This is a place where I post about projects I'm working on and things I find interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: destanton
@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
-include: ['_pages']
+include: ['_pages', '_blog']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
