@@ -23,15 +23,23 @@ twitter_username: destanton
 github_username:  destanton
 
 # Build settings
+markdown: kramdown
 kramdown:
   input: GFM
-# theme: minima
+  syntax_highlighter: rouge
 plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
 include: ['_pages', '_blog']
 
+defaults:
+  -scope:
+    path: "assets/img"
+  values:
+    image: true
+
+header: assets/img/mason-danielle-dance.jpg
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
