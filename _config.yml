@@ -31,6 +31,8 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
+  style: compressed
+
 include: ['_pages', '_blog']
 
 defaults:
