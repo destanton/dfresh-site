@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Contact
+title: Contact Me
 permalink: /contact/
 ---
 
-Contact stuff here.
-
-Email Addy: [email@email.com](mailto:email@email.com).
+You can find me on social media or [shoot me an email](mailto:email@email.com)
