@@ -38,10 +38,10 @@ sass:
 include: ['_pages', '_blog']
 
 defaults:
-  -scope:
-    path: "assets/img"
-  values:
-    image: true
+  - scope:
+      path: "assets/photos"
+    values:
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

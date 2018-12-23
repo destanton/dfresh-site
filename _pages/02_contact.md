@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Contact Me
+
 permalink: /contact/
+sub-title: Let's Connect!
 ---
 
-You can find me on social media or [shoot me an email](mailto:email@email.com)
+Wanna chat, grab a cup of coffee, play some video games? <a class="a-blog" href="mailto:email@email.com">shoot me an email -- let's connect!</a>
