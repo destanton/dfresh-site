@@ -21,6 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: destanton
 github_username:  destanton
+instagram_username: danifrsh
+linkedin_username: danielle-stanton
 
 # Build settings
 markdown: kramdown
@@ -41,7 +43,6 @@ defaults:
   values:
     image: true
 
-header: assets/img/mason-danielle-dance.jpg
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
