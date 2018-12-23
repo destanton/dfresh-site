@@ -3,8 +3,16 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-<h2>Blog</h2>
-{% for post in site.posts %}
-  <time>{{ post.date | date: "%b %-d, %Y"}}</time>
-  <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-{% endfor %}
+<div class="post-div">
+  <h1>Blog</h1>
+  {% for post in site.posts %}
+  <div>
+    <h2><a class="a-blog" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <div class="author-style">
+      Published on <time>{{ post.date | date: "%b %-d, %Y"}}</time>
+      by <span class="name">{{ post.author }}</span>
+    </div>
+      <hr>
+  </div>
+  {% endfor %}
+</div>
